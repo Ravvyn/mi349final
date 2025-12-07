@@ -1,0 +1,38 @@
+---
+title: Lynn Hogen-Esch - Portfolio
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lynn Hogen-Esch - Portfolio</title>
+  <link rel="stylesheet" href="/styles/screen.css">
+</head>
+<body>
+    {% include 'nav' %}
+    <div class="gameContainer">
+    {% for game in games %}
+        {% if game.Indev == false %}
+            <div class="Game">
+                <a href="/portfolio/{{ game.name | slugify }}/"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
+                <h2>{{ game.name }}</h2>
+                <p>{{ game.mainDescription }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+    <h1>~~In Development~~</h1>
+    <div class="gameContainer">
+    {% for game in games %}
+        {% if game.Indev == true %}
+            <div class="Game">
+                <a href="/portfolio/{{ game.name | slugify }}/"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
+                <h2>{{ game.name }}</h2>
+                <p>{{ game.mainDescription }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+</body>
+</html>

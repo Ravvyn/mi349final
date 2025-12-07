@@ -1,0 +1,34 @@
+---
+pagination:
+  data: games
+  size: 1
+  alias: game
+permalink: "portfolio/{{ game.name | slugify }}/"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lynn Hogen-Esch - {{ game.name }}</title>
+  <link rel="stylesheet" href="/styles/screen.css">
+</head>
+<body>
+    {% include 'nav' %}
+    <h2>{{ game.name }}</h2>
+    <div class="gameSummary">
+    <ul>
+      <li>Time Spent: {{ game.TimeSpent }}</li>
+      <li>Team Size: {{ game.TeamSize }}</li>
+      <li>My Role: {{ game.MyRole }}</li>
+      <li>Work Summary: {{ game.WorkSummary }}</li>
+    </ul>
+    <img src="{{ game.CoverImage }}" alt="{{game.name}} cover image" width="50%">
+    </div>
+    <h3>{{ game.HighlightTitle }}</h3>
+    <div class="gameDetails">
+      <p>{{ game.HighlightDescription }}</p>
+      <img src="{{ game.HighlightImage }}" alt="{{game.name}} highlight image" width="50%">
+    </div>
+</body>
+</html>

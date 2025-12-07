@@ -1,0 +1,54 @@
+[
+    {
+        "Indev" : false,
+        "name": "Treekeeper",
+        "mainDescription": "Treekeeper is a top-down tower defense shooter in which you defend The Great Tree from the fires of industry. Dash around the battlefield while placing towers or walls, then attack bots directly with your magic!",
+        "TimeSpent": "6 weeks",
+        "TeamSize": "7",
+        "MyRole": "UI designer & Systems programmer",
+        "WorkSummary": "I created all of the UI you see in the game. My goal for this game was to have as much of the gameplay UI as dynamic as possible",
+        "CoverImage": "/images/Treekeeper.png",
+        "HighlightTitle":"Dynamic gameplay UI",
+        "HighlightDescription":"I created a dynamic radial layout group script, a variation of Unity's grid layout system. takes in a radius, start angle, and end angle, and automatically spaces each element. This was used for the upgrade and targeting priority menus in game.",
+        "HighlightImage":"/images/TreekeeperTowerUpgrade.png"
+    },
+    {
+        "Indev" : false,
+        "name": "Galax 2025",
+        "mainDescription": "Galax 2025 is an unofficial remake of a 1988 game for MacOS called Galax. Conquer the galaxy one planet at a time in this space strategy game! Play the original way against the Gubru and the Czin or play against a friend in pass & play mode!",
+        "TimeSpent": "~2 months",
+        "TeamSize": "1",
+        "MyRole": "Everything",
+        "WorkSummary": "I played the original through an emulator until I was able to figure out how the game worked, then remade it in Unity as best I could.",
+        "CoverImage": "/images/GalaxCoverImage.png",
+        "HighlightTitle":"",
+        "HighlightDescription":"",
+        "HighlightImage":""
+    },
+    {
+        "Indev" : false,
+        "name": "Costumes & Candy",
+        "mainDescription": "Costumes & Candy is a 3D exploration platformer in which you run around an island town on Halloween, avoiding other children and collecting candy while switching between 3 costumes that give you different abilities!",
+        "TimeSpent": "6 weeks",
+        "TeamSize": "6",
+        "MyRole": "UI designer & Systems programmer",
+        "WorkSummary": "I created all of the UI you see in the game, including the compass showing direction and distance of objectives, the costume UI on the bottom left showing what costumes you have, the timer in the upper left, and all of the menus.",
+        "CoverImage": "/images/Costumes&CandyCoverImage.png",
+        "HighlightTitle":"UI Page system",
+        "HighlightDescription":"During this project, I reworked my modular UI system to more easily switch between pages of a menu, in addition to a modular input action rebinding system and a subtab system. The UI page system indexes all objects in the canvas with UIPage components and allows easily switching to a menu based on its name.",
+        "HighlightImage":""
+    },
+    {
+        "Indev" : true,
+        "name": "Kaleido",
+        "mainDescription": "Kaleido will be a JRPG with fighting game elements about a hue named Gray as they go on a journey of self-discovery across the continent of Kaleido, finding their artistic style and making many friends along the way.",
+        "TimeSpent": "11 months as of December 2025",
+        "TeamSize": "13",
+        "MyRole": "UI Director",
+        "WorkSummary": "I joined this project in February 2024, and then development paused in August of that year. We started development again in October 2025, and I threw out most of my old work as I am a much more proficient developer now. Additionally, development has been slow as our team is all still in college and have been contributing small amounts whenever we have time between classes.",
+        "CoverImage": "/images/KaleidoCoverImage.png",
+        "HighlightTitle":"Overworld UI Menus",
+        "HighlightDescription":"My main work for Kaleido that I can show off is the overworld UI. These images are the current mockups, but I will be remaking most of this as we have decided to go another direction for the aesthetic of the overworld menus. I had made a party management system, though I have scrapped most of it and am in the process of making a better version.",
+        "HighlightImage":""
+    }
+]
