@@ -221,4 +221,7 @@ div.footer{
     div.details{
         grid-template-columns: 1fr;
     }
+    div.footer{
+        font-size:small;
+    }
 }
