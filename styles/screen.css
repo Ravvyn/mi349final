@@ -87,8 +87,8 @@ nav ul li strong a{
 div.gameContainer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:2em;
-    align-items: center;
+    gap:1em;
+    align-items: start;
     justify-content: center;
     width:100%;
 }
@@ -101,7 +101,6 @@ div.about{
     margin:2em;
     display:grid;
     grid-template-columns: 1fr 1fr;
-
 }
 div.profile{
     display:flex;
@@ -126,8 +125,21 @@ div.profile h4{
 
 div.footer{
     position:sticky;
-    bottom: 0px;
+    bottom: 0;
+    top:100vw;
+    width:100%;
     display:flex;
     justify-content: space-between;
     background-color: #784D80;
+}
+@media screen and (max-width: 400px) {
+    div.gameContainer{
+    grid-template-columns: 1fr;
+    }
+    h1{
+        font-size:10vw;
+    }
+    div.about{
+        grid-template-columns: auto;
+    }
 }
