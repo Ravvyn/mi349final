@@ -13,22 +13,22 @@ permalink: "portfolio/{{ game.name | slugify }}/"
   <title>Lynn Hogen-Esch - {{ game.name }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
-<body>
+<body class="gameDetails">
     {% include 'nav' %}
     <h2>{{ game.name }}</h2>
-    <div class="gameSummary">
+    <div class="summary">
+    <img src="{{ game.CoverImage }}" alt="{{game.name}} cover image">
     <ul>
       <li>Time Spent: {{ game.TimeSpent }}</li>
       <li>Team Size: {{ game.TeamSize }}</li>
       <li>My Role: {{ game.MyRole }}</li>
       <li>Work Summary: {{ game.WorkSummary }}</li>
     </ul>
-    <img src="{{ game.CoverImage }}" alt="{{game.name}} cover image" width="50%">
     </div>
     <h3>{{ game.HighlightTitle }}</h3>
-    <div class="gameDetails">
+    <div class="details">
       <p>{{ game.HighlightDescription }}</p>
-      <img src="{{ game.HighlightImage }}" alt="{{game.name}} highlight image" width="50%">
+      <img src="{{ game.HighlightImage }}" alt="{{game.name}} highlight image">
     </div>
     {% include 'footer' %}
 </body>

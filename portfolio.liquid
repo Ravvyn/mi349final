@@ -10,32 +10,36 @@ title: Lynn Hogen-Esch - Portfolio
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-    {% include 'nav' %}
-    <div class="gameContainer">
-    {% for game in games %}
-        {% if game.Indev == false %}
-            <div class="Game">
-                <a href="/portfolio/{{ game.name | slugify }}/"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
-                <h2>{{ game.name }}</h2>
-                <p>{{ game.mainDescription }}</p>
+    <div class="wrapper">
+        {% include 'nav' %}
+        <main>
+            <div class="gameContainer">
+                {% for game in games %}
+                    {% if game.Indev == false %}
+                        <div class="Game">
+                            <a href="/portfolio/{{ game.name | slugify }}/"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
+                            <h2>{{ game.name }}</h2>
+                            <p>{{ game.mainDescription }}</p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
             </div>
-        {% endif %}
-    {% endfor %}
-    </div>
-    <h1>~~In Development~~</h1>
-    <div class="gameContainer">
-        <div></div>
-    {% for game in games %}
-        {% if game.Indev == true %}
-            <div class="Game">
-                <a href="/portfolio/{{ game.name | slugify }}/"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
-                <h2>{{ game.name }}</h2>
-                <p>{{ game.mainDescription }}</p>
+            <h1>~~In Development~~</h1>
+            <div class="gameContainer">
+                <div></div>
+                {% for game in games %}
+                    {% if game.Indev == true %}
+                        <div class="Game">
+                            <a href="/portfolio/{{ game.name | slugify }}/"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
+                            <h2>{{ game.name }}</h2>
+                            <p>{{ game.mainDescription }}</p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                <div></div>
             </div>
-        {% endif %}
-    {% endfor %}
-        <div></div>
+        </main>
+        {% include 'footer' %}
     </div>
-    {% include 'footer' %}
 </body>
 </html>

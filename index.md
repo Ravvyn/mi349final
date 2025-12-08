@@ -6,5 +6,4 @@ title: Lynn Hogen-Esch
 <img alt="Logo" src="/images/LynnHogenEschLogo.png">
 <p><a href="./portfolio/" class="homePort">Portfolio</a></p>
 <p><a href="./about/" class="homeAbt">About</a></p>
-
 </div>
