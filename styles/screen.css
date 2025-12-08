@@ -215,4 +215,10 @@ div.footer{
     div.about{
         grid-template-columns: auto;
     }
+    div.summary{
+        grid-template-columns: 1fr;
+    }
+    div.details{
+        grid-template-columns: 1fr;
+    }
 }
