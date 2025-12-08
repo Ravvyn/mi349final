@@ -132,7 +132,7 @@ div.footer{
     justify-content: space-between;
     background-color: #784D80;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     div.gameContainer{
     grid-template-columns: 1fr;
     }
