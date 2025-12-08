@@ -1,7 +1,7 @@
 body {
     font-family:'Times New Roman', Times, serif;
     color: #fce8ff;
-    background: #3d283f;
+    background: #45194C;
     margin:0px;
 }
 
@@ -45,6 +45,7 @@ nav ul li a {
 
 h1 {
     font-size: 3em;
+    text-align: center;
 }
 
 h1 em {
@@ -83,14 +84,6 @@ body.home{
 nav ul li strong a{
     color:#E18FEF;
 }
-
-div.footer{
-    position:sticky;
-    bottom: 0;
-    display:flex;
-    justify-content: space-between;
-    background-color: #784D80;
-}
 div.gameContainer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -102,4 +95,39 @@ div.gameContainer{
 div.Game img{
     width:100%;
     height: auto;
+}
+
+div.about{
+    margin:2em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+div.profile{
+    display:flex;
+    flex-direction: column;
+}
+div.profile img{
+    width:50%;
+    align-self: center;
+}
+p.profiledesc{
+    display: block;
+    align-self: center;
+}
+div.profile h3{
+    margin:0;
+    text-align:center;
+}
+div.profile h4{
+    margin:0;
+    text-align:center;
+}
+
+div.footer{
+    position:sticky;
+    bottom: 0px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #784D80;
 }
