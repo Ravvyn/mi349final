@@ -6,10 +6,11 @@
         "TimeSpent": "6 weeks",
         "TeamSize": "7",
         "MyRole": "UI designer & Systems programmer",
-        "WorkSummary": "I created all of the UI you see in the game. My goal for this game was to have as much of the gameplay UI as dynamic as possible",
+        "WorkSummary": "I designed and programmed all of the UI in the game. I created a dynamic radial layout group script, modified my previously existing button rebinding system to be more modular(it can now more easily be slotted into future projects), and designed a dynamic gameplay UI system to address the issue of keeping the player informed but still aware of the battlefield.",
         "CoverImage": "/images/Treekeeper.png",
+        "ItchLink":"https://shawareb-knight.itch.io/treekeeper",
         "HighlightTitle":"Dynamic Gameplay UI",
-        "HighlightDescription":"I created a dynamic radial layout group script, a variation of Unity's grid layout system. takes in a radius, start angle, and end angle, and automatically spaces each element. This was used for the upgrade and targeting priority menus in game.",
+        "HighlightDescription":"For Treekeeper, we needed a way to have the player manage towers(Ents) but still able to quickly respond to threats without interrupting the flow of the game by pausing time, so the gameplay designers and I settled on the idea of each Ent having a context menu that pops up when you click on them to manage them. To make the radial layout it employs, I created a dynamic radial layout group script, a variation of Unity's native grid layout system that takes in a radius, start angle, and end angle, and automatically spaces and sizes each element.",
         "HighlightImage":"/images/TreekeeperTowerUpgrade.png"
     },
     {
@@ -21,22 +22,24 @@
         "MyRole": "Everything",
         "WorkSummary": "I played the original through an emulator until I was able to figure out how the game worked, then remade it in Unity as best I could.",
         "CoverImage": "/images/GalaxCoverImage.png",
-        "HighlightTitle":"Everything",
-        "HighlightDescription":"I programmed and implemented every system for this project, from the battle calculations to the UI display. This is probably my least design-heavy project on my portfolio, as I didn't design the main core of these ideas myself, they are all merely remade versions of the original game's systems. All of the art assets are recreations of the original sprites.",
+        "ItchLink":"https://lynnhe.itch.io/galax-2025",
+        "HighlightTitle":"Remaking a game my father remembered",
+        "HighlightDescription":"Galax 2025 was a project I undertook to recreate a game my father had played when he was around my age. this meant studying the original through an emulator and his original copy of the game from 1988, as Galax was so obscure that it wasn't even on the internet archive until my father uploaded it. I, with the help of my father's recollection of the game, remade it in Unity, though it's not quite a 1 to 1 remake as my version allows for pass & play multiplayer, in addition to some of the math not being exactly what it was in the original, but my best approximation from testing the results. Every sprite and graphic I recreated in Aseprite, every systems I programmed to get as close to the feel of the original as I could.",
         "HighlightImage":"/images/Galax2025HomeworldInfo.jpg"
     },
     {
         "Indev" : false,
-        "name": "Costumes & Candy",
-        "mainDescription": "Costumes & Candy is a 3D exploration platformer in which you run around an island town on Halloween, avoiding other children and collecting candy while switching between 3 costumes that give you different abilities!",
-        "TimeSpent": "6 weeks",
+        "name": "Corp City",
+        "mainDescription": "Corp City is a city management game in which you run a city like a corporation. You have to manage your employee's wages and benefits budgets and upgrade the facilities of each sector to reach a certain profit quota every 5 years.",
+        "TimeSpent": "4 weeks",
         "TeamSize": "6",
-        "MyRole": "UI designer & Systems programmer",
-        "WorkSummary": "I created all of the UI you see in the game, including the compass showing direction and distance of objectives, the costume UI on the bottom left showing what costumes you have, the timer in the upper left, and all of the menus.",
-        "CoverImage": "/images/Costumes&CandyCoverImage.png",
-        "HighlightTitle":"UI Page system",
-        "HighlightDescription":"During this project, I reworked my modular UI system to more easily switch between pages of a menu, in addition to a modular input action rebinding system and a subtab system. The UI page system indexes all objects in the canvas with UIPage components and allows easily switching to a menu based on its name.",
-        "HighlightImage":"/images/Costumes&CandyHUD.png"
+        "MyRole": "UI designer & Gameplay programmer",
+        "WorkSummary": "For this project I designed and programmed and did the art for the UI. Because the UI is the only way the player interacts with the game, my UI programming ended up becoming the gameplay programming. The systems programming for this project was done by one of the other programmers as they also designed the systems.",
+        "CoverImage": "/images/CorpCity.png",
+        "ItchLink":"https://lynnhe.itch.io/corp-city",
+        "HighlightTitle":"Serving the narrative through UI Design",
+        "HighlightDescription":"You'll notice the UI for this game doesn't look very pretty, being rigid, monochrome squares. This is to serve the game's narrative of being the CEO of the soulless corporation that controls the city. The conrast between the UI's drab lifelessness and the city's neon, exciting color scheme serves to illustrate the divide between the corporation that runs this city and the people that live in it.",
+        "HighlightImage":"/images/CorpCityIndustrialOverview.png"
     },
     {
         "Indev" : true,
@@ -47,6 +50,7 @@
         "MyRole": "UI Director",
         "WorkSummary": "I joined this project in February 2024, and then development paused in August of that year. We started development again in October 2025, and I threw out most of my old work as I am a much more proficient developer now. Additionally, development has been slow as our team is all still in college and have been contributing small amounts whenever we have time between classes.",
         "CoverImage": "/images/KaleidoCoverImage.png",
+        "ItchLink":"",
         "HighlightTitle":"Overworld UI Menus",
         "HighlightDescription":"My main work for Kaleido that I can show off is the overworld UI. This image is the current mockup of the inventory screen, but I will be remaking most of this as we have decided to go another direction for the aesthetic of the overworld menus. I had made a party management system, though I have scrapped most of it and am in the process of making a better version.",
         "HighlightImage":"/images/KaleidoInv.png"

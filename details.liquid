@@ -19,6 +19,9 @@ permalink: "portfolio/{{ game.name | slugify }}/"
     <div class="summary">
     <img src="{{ game.CoverImage }}" alt="{{game.name}} cover image">
     <ul>
+      {% if game.Indev == false %}
+      <li>Itch.io Link: <a href="{{game.ItchLink}}">{{game.ItchLink}}</a> </li>
+      {% endif %}
       <li>Time Spent: {{ game.TimeSpent }}</li>
       <li>Team Size: {{ game.TeamSize }}</li>
       <li>My Role: {{ game.MyRole }}</li>
