@@ -107,7 +107,8 @@ div.gameContainer{
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap:1em;
-    margin:2em;
+    margin:1em;
+    padding:1em;
     align-items: start;
     justify-content: center;
 }
