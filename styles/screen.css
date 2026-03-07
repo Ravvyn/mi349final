@@ -25,7 +25,7 @@ a{
 nav {
     margin: 0px;
     width: 100%;
-    height: 75px;
+    height: 4.5em;
     background: #784D80;
     position: sticky;
     text-align: center;
@@ -34,7 +34,7 @@ nav {
 nav img{
     float:left;
     margin:10px;
-    width:55px;
+    width:3em;
 }
 
 nav ul {
@@ -52,10 +52,10 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    padding: 25px;
+    padding: 0.5em;
     color: #D69FDF;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 h1 {
@@ -161,6 +161,7 @@ div.summary ul{
     align-content: center;
     background-color: #4a304f;
     padding:0 2em;
+    font-size:large;
 }
 div.summary li{
     width:100%;
@@ -192,6 +193,7 @@ div.details p{
     background-color: #4a304f;
     text-align: center;
     padding:0 1em;
+    font-size:large;
 }
 div.footer{
     position:sticky;
@@ -222,5 +224,15 @@ div.footer{
     }
     div.footer{
         font-size:small;
+    }
+}
+@media screen and (min-width:1150px){
+    div.summary{
+        width:1100px;
+        margin:auto;
+    }
+    div.details{
+        width:1100px;
+        margin:auto;
     }
 }

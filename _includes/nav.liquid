@@ -1,7 +1,10 @@
 <nav>
     <a href="/"><img src="/images/LynnHogenEschLogo.png" width="55px"></a>
     <ul>
-    {% for link in navigation %}
+      <li>
+        <a href="/">Lynn Hogen-Esch</a>
+      </li>
+    {% comment %}{% for link in navigation %}
       <li>
         {% if page.url == link.url %}
           <strong><a href="{{ link.url | url }}">{{ link.title }}</a></strong>
@@ -9,6 +12,6 @@
           <a href="{{ link.url | url }}">{{ link.title }}</a>
         {% endif %}
       </li>
-    {% endfor %}
+    {% endfor %}{% endcomment %}
     </ul>
   </nav>
