@@ -7,11 +7,17 @@ html {
   box-sizing: border-box;
 }
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Quintessential', Times, serif;
     color: #45194C;
     background: #E8CFEB;
     margin:0px;
     height: 100%;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+li{
+    font-family: 'Times New Roman', Times, serif;
 }
 .wrapper {
   min-height: 100%;
@@ -101,7 +107,7 @@ div.gameContainer{
     grid-template-columns: 1fr 1fr 1fr;
     gap:1em;
     margin:2em;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 div.Game{
