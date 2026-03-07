@@ -1,6 +1,20 @@
 [
     {
         "Indev" : false,
+        "name": "Corp City",
+        "mainDescription": "Corp City is a city management game in which you run a city like a corporation. You have to manage your employee's wages and benefits budgets and upgrade the facilities of each sector to reach a certain profit quota every 5 years.",
+        "TimeSpent": "4 weeks",
+        "TeamSize": "6",
+        "MyRole": "UI designer & Gameplay programmer",
+        "WorkSummary": "For this project I designed and programmed and did the art for the UI. Because the UI is the only way the player interacts with the game, my UI programming ended up becoming the gameplay programming. The systems programming for this project was done by one of the other programmers as they also designed the systems.",
+        "CoverImage": "/images/CorpCity.png",
+        "ItchLink":"https://lynnhe.itch.io/corp-city",
+        "HighlightTitle":"Serving the narrative through UI Design",
+        "HighlightDescription":"You'll notice the UI for this game doesn't look very pretty, being rigid, monochrome squares. This is to serve the game's narrative of being the CEO of the soulless corporation that controls the city. The conrast between the UI's drab lifelessness and the city's neon, exciting color scheme serves to illustrate the divide between the corporation that runs this city and the people that live in it.",
+        "HighlightImage":"/images/CorpCityIndustrialOverview.png"
+    },
+    {
+        "Indev" : false,
         "name": "Treekeeper",
         "mainDescription": "Treekeeper is a top-down tower defense shooter in which you defend The Great Tree from the fires of industry. Dash around the battlefield while placing towers or walls, then attack bots directly with your magic!",
         "TimeSpent": "6 weeks",
@@ -26,20 +40,6 @@
         "HighlightTitle":"Remaking a game my father remembered",
         "HighlightDescription":"Galax 2025 was a project I undertook to recreate a game my father had played when he was around my age. this meant studying the original through an emulator and his original copy of the game from 1988, as Galax was so obscure that it wasn't even on the internet archive until my father uploaded it. I, with the help of my father's recollection of the game, remade it in Unity, though it's not quite a 1 to 1 remake as my version allows for pass & play multiplayer, in addition to some of the math not being exactly what it was in the original, but my best approximation from testing the results. Every sprite and graphic I recreated in Aseprite, every systems I programmed to get as close to the feel of the original as I could.",
         "HighlightImage":"/images/Galax2025HomeworldInfo.jpg"
-    },
-    {
-        "Indev" : false,
-        "name": "Corp City",
-        "mainDescription": "Corp City is a city management game in which you run a city like a corporation. You have to manage your employee's wages and benefits budgets and upgrade the facilities of each sector to reach a certain profit quota every 5 years.",
-        "TimeSpent": "4 weeks",
-        "TeamSize": "6",
-        "MyRole": "UI designer & Gameplay programmer",
-        "WorkSummary": "For this project I designed and programmed and did the art for the UI. Because the UI is the only way the player interacts with the game, my UI programming ended up becoming the gameplay programming. The systems programming for this project was done by one of the other programmers as they also designed the systems.",
-        "CoverImage": "/images/CorpCity.png",
-        "ItchLink":"https://lynnhe.itch.io/corp-city",
-        "HighlightTitle":"Serving the narrative through UI Design",
-        "HighlightDescription":"You'll notice the UI for this game doesn't look very pretty, being rigid, monochrome squares. This is to serve the game's narrative of being the CEO of the soulless corporation that controls the city. The conrast between the UI's drab lifelessness and the city's neon, exciting color scheme serves to illustrate the divide between the corporation that runs this city and the people that live in it.",
-        "HighlightImage":"/images/CorpCityIndustrialOverview.png"
     },
     {
         "Indev" : true,
