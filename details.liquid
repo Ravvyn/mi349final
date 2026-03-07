@@ -3,7 +3,7 @@ pagination:
   data: games
   size: 1
   alias: game
-permalink: "portfolio/{{ game.name | slugify }}/"
+permalink: "/{{ game.name | slugify }}/"
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +12,7 @@ permalink: "portfolio/{{ game.name | slugify }}/"
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lynn Hogen-Esch - {{ game.name }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
+  <link rel="icon" type="image/x-icon" href="/images/LynnHogenEschLogo.png">
 </head>
 <body class="gameDetails">
     {% include 'nav' %}
