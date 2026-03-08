@@ -3,7 +3,6 @@
 }
 
 html {
-  height: 100%;
   box-sizing: border-box;
 }
 body {
@@ -12,7 +11,7 @@ body {
     background: #E8CFEB;
     margin:0px;
     position:relative;
-    min-height: fit-content;
+    min-height: 100vh;
 }
 p{
     font-family:'Times New Roman', Times, serif;
@@ -257,6 +256,7 @@ div.footer a{
         font-size:small;
     }
 }
+/*
 @media screen and (min-width:1080px){
     div.summary{
         width:1000px;
@@ -278,4 +278,4 @@ div.footer a{
         justify-content: center;
         gap:25em;
     }
-}
+}*/
