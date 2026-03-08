@@ -216,7 +216,7 @@ div.pageChangeButtons{
     display: flex;
     justify-content:space-around;
     gap:5em;
-    padding:1em;
+    margin:1em;
 }
 div.pageChangeButtons a{
     background-color: #e0b6e4;
@@ -273,5 +273,9 @@ div.footer a{
     div.gameContainer{
         width: 1000px;
         margin:1em auto 1em auto;
+    }
+    div.pageChangeButtons{
+        justify-content: center;
+        gap:25em;
     }
 }
