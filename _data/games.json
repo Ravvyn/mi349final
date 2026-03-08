@@ -11,7 +11,9 @@
         "ItchLink":"https://lynnhe.itch.io/corp-city",
         "HighlightTitle":"Serving the narrative through UI Design",
         "HighlightDescription":"You'll notice the UI for this game doesn't look very pretty, being rigid, monochrome squares. This is to serve the game's narrative of being the CEO of the soulless corporation that controls the city. The conrast between the UI's drab lifelessness and the city's neon, exciting color scheme serves to illustrate the divide between the corporation that runs this city and the people that live in it.",
-        "HighlightImage":"/images/CorpCityIndustrialOverview.png"
+        "HighlightImage":"/images/CorpCityIndustrialOverview.png",
+        "NextGame":"Treekeeper",
+        "PreviousGame":"Galax 2025"
     },
     {
         "Indev" : false,
@@ -25,7 +27,9 @@
         "ItchLink":"https://shawareb-knight.itch.io/treekeeper",
         "HighlightTitle":"Dynamic Gameplay UI",
         "HighlightDescription":"For Treekeeper, we needed a way to have the player manage towers(Ents) but still able to quickly respond to threats without interrupting the flow of the game by pausing time, so the gameplay designers and I settled on the idea of each Ent having a context menu that pops up when you click on them to manage them. To make the radial layout it employs, I created a dynamic radial layout group script, a variation of Unity's native grid layout system that takes in a radius, start angle, and end angle, and automatically spaces and sizes each element.",
-        "HighlightImage":"/images/TreekeeperTowerUpgrade.png"
+        "HighlightImage":"/images/TreekeeperTowerUpgrade.png",
+        "NextGame":"Galax 2025",
+        "PreviousGame":"Corp City"
     },
     {
         "Indev" : false,
@@ -39,7 +43,9 @@
         "ItchLink":"https://lynnhe.itch.io/galax-2025",
         "HighlightTitle":"Remaking a game my father remembered",
         "HighlightDescription":"Galax 2025 was a project I undertook to recreate a game my father had played when he was around my age. this meant studying the original through an emulator and his original copy of the game from 1988, as Galax was so obscure that it wasn't even on the internet archive until my father uploaded it. I, with the help of my father's recollection of the game, remade it in Unity, though it's not quite a 1 to 1 remake as my version allows for pass & play multiplayer, in addition to some of the math not being exactly what it was in the original, but my best approximation from testing the results. Every sprite and graphic I recreated in Aseprite, every systems I programmed to get as close to the feel of the original as I could.",
-        "HighlightImage":"/images/Galax2025HomeworldInfo.jpg"
+        "HighlightImage":"/images/Galax2025HomeworldInfo.jpg",
+        "NextGame":"Corp City",
+        "PreviousGame":"Treekeeper"
     },
     {
         "Indev" : true,

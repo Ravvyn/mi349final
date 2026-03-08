@@ -18,7 +18,7 @@ permalink: "/{{ game.name | slugify }}/"
     {% include 'nav' %}
     <h2>{{ game.name }}</h2>
     <div class="summary">
-    <img src="{{ game.CoverImage }}" alt="{{game.name}} cover image">
+    <a href="{{game.ItchLink}}"><img src="{{ game.CoverImage }}" alt="{{game.name}} cover image"></a>
     <ul>
       {% if game.Indev == false %}
       <li>Itch.io Link: <a href="{{game.ItchLink}}">{{game.ItchLink}}</a> </li>
@@ -33,6 +33,10 @@ permalink: "/{{ game.name | slugify }}/"
     <div class="details">
       <p>{{ game.HighlightDescription }}</p>
       <img src="{{ game.HighlightImage }}" alt="{{game.name}} highlight image">
+    </div>
+    <div class="pageChangeButtons">
+      <a href="/{{ game.PreviousGame | slugify }}">Previous</a>
+      <a href="/{{ game.NextGame | slugify }}">Next</a>
     </div>
     {% include 'footer' %}
 </body>
