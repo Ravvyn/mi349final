@@ -15,6 +15,7 @@ permalink: "/{{ game.name | slugify }}/"
   <link rel="icon" type="image/x-icon" href="/images/LynnHogenEschLogo.png">
 </head>
 <body class="gameDetails">
+  <main>
     {% include 'nav' %}
     <h2>{{ game.name }}</h2>
     <div class="summary">
@@ -38,6 +39,7 @@ permalink: "/{{ game.name | slugify }}/"
       <a href="/{{ game.PreviousGame | slugify }}">Previous</a>
       <a href="/{{ game.NextGame | slugify }}">Next</a>
     </div>
-    {% include 'footer' %}
+  </main>
+  {% include 'footer' %}
 </body>
 </html>
