@@ -264,11 +264,11 @@ div.footer a{
 
 @media screen and (min-width:1080px){
     div.summary{
-        width:90%;
+        width:80%;
         margin:auto;
     }
     div.details{
-        width:90%;
+        width:80%;
         margin:auto;
     }
     div.about{
@@ -276,7 +276,7 @@ div.footer a{
         margin:1em auto 1em auto;
     }
     div.gameContainer{
-        width: 75%;
+        width: 80%;
         margin:1em auto 1em auto;
     }
     div.pageChangeButtons{
