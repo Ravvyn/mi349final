@@ -14,7 +14,7 @@ body {
     position:relative;
 }
 main{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 p{
     font-family:'Times New Roman', Times, serif;
@@ -110,21 +110,24 @@ div.gameContainer{
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap:1em;
-    margin:1em;
-    padding:1em;
+    margin:1em 2em 2em 2em;
     align-items: start;
     justify-content: center;
+    width: fit-content;
+    height: min-content;
 }
 div.Game{
     background-color:#e0b6e4;
     padding:1em;
+    height: 100%;
 }
 div.Game img{
     width:100%;
 }
 
 div.about{
-    margin:2em;
+    margin:1em 2em 1em 2em;
+    padding:2em;
     display:grid;
     background-color:#e0b6e4;
 }
@@ -138,7 +141,6 @@ div.profile img{
     align-self: center;
 }
 div.profiledesc{
-    margin:2em;
     display: block;
     align-self: center;
     text-align:center;
@@ -237,7 +239,7 @@ div.footer{
         font-size:small;
     }
 }
-@media screen and (min-width:1100px){
+@media screen and (min-width:1080px){
     div.summary{
         width:1000px;
         margin:auto;
@@ -248,10 +250,10 @@ div.footer{
     }
     div.about{
         width:1000px;
-        margin:2em auto;
+        margin:1em auto 1em auto;
     }
     div.gameContainer{
         width: 1000px;
-        margin:auto;
+        margin:1em auto 2em auto;
     }
 }
