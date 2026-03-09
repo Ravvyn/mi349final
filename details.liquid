@@ -36,8 +36,8 @@ permalink: "/{{ game.name | slugify }}/"
       <img src="{{ game.HighlightImage }}" alt="{{game.name}} highlight image">
     </div>
     <div class="pageChangeButtons">
-      <a href="/{{ game.PreviousGame | slugify }}">Previous</a>
-      <a href="/{{ game.NextGame | slugify }}">Next</a>
+      <a href="/{{ game.PreviousGame | slugify }}">Previous Game</a>
+      <a href="/{{ game.NextGame | slugify }}">Next Game</a>
     </div>
   </main>
   {% include 'footer' %}

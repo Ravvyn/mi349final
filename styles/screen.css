@@ -217,12 +217,12 @@ div.details p{
 div.pageChangeButtons{
     display: flex;
     justify-content:space-around;
-    gap:5em;
     margin:1em;
+    padding: 0 5%;
 }
 div.pageChangeButtons a{
     background-color: #e0b6e4;
-    width:5em;
+    width:10em;
     padding: 0.5em;
     text-align: center;
     color: #45194C;
@@ -260,6 +260,9 @@ div.footer a{
     div.footer{
         font-size:small;
     }
+    div.pageChangeButtons a{
+        width:30%;
+    }
 }
 
 @media screen and (min-width:1080px){
@@ -278,9 +281,5 @@ div.footer a{
     div.gameContainer{
         width: 80%;
         margin:1em auto 1em auto;
-    }
-    div.pageChangeButtons{
-        justify-content: center;
-        gap:25em;
     }
 }
